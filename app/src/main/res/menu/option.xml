@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menuMain"
+        android:title="メインメニューへ戻る" />
+    <!--
+    <item
+        android:id="@+id/menuSetIn"
+        android:title="入庫設定" />
+    <item
+        android:id="@+id/menuPick"
+        android:title="ピッキング指示" />
+    <item
+        android:id="@+id/menuPick2"
+        android:title="ピッキング指示2" />
+    <item
+        android:id="@+id/menuInv1"
+        android:title="棚卸し" />
+    <item
+        android:id="@+id/menuInv2"
+        android:title="棚卸し２" />
+    <item
+        android:id="@+id/menuInv3"
+        android:title="棚卸し３" />
+    <item
+        android:id="@+id/menuInv4"
+        android:title="棚卸し４" />
+    <item
+        android:id="@+id/menuLogout"
+        android:title="ログアウト" />
+    -->
+</menu>

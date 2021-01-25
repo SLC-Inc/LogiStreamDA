@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MainMenuActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="160dp"
+        tools:layout_editor_absoluteY="166dp">
+
+        <TextView
+            android:id="@+id/mainMenuMsgText"
+            android:layout_width="match_parent"
+            android:layout_height="89dp"
+            android:text="開始する作業を\n選択して下さい。"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="25dp" />
+
+        <Button
+            android:id="@+id/setInBtn"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_margin="0dp"
+            android:layout_weight="0"
+            android:text="入庫設定"
+            android:textSize="36dp" />
+
+        <Button
+            android:id="@+id/pickBtn"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_margin="0dp"
+            android:layout_weight="0"
+            android:text="ピッキング指示"
+            android:textSize="36dp" />
+
+        <Button
+            android:id="@+id/inventoryBtn"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_margin="0dp"
+            android:layout_weight="0"
+            android:text="棚卸し設定"
+            android:textSize="36dp" />
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

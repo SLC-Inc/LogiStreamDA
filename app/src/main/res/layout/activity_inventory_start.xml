@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:bootstrap="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/mainMenuMsgText"
+            android:layout_width="match_parent"
+            android:layout_height="83dp"
+            android:text="作業場所の棚卸し区分を\n選択してください。"
+            android:textAlignment="center"
+            android:textSize="25dp"
+            android:textColor="@color/black"/>
+
+        <Button
+            android:id="@+id/setNewBtn"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_margin="0dp"
+            android:layout_weight="0"
+            android:text="新規作業開始"
+            android:textSize="40dp" />
+
+        <Button
+            android:id="@+id/setWorkBtn"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_margin="0dp"
+            android:layout_weight="0"
+            android:text="作業再開"
+            android:textSize="40dp" />
+
+        <Button
+            android:id="@+id/returnBtn"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_margin="100dp"
+            android:layout_weight="0"
+            android:text="戻る"
+            android:textAlignment="center"
+            android:textSize="30dp"
+            android:theme="@style/FooterButtonColor" />
+    </LinearLayout>

@@ -187,7 +187,11 @@ public class SetInActivity2 extends AppCompatActivity {
                             //応答結果が正常の場合
                             globals.strC01_Id = jsonObj.getString("stockID");
                             globals.strC01_Code = jsonObj.getString("itemCode");
-                            globals.strM04_Name = jsonObj.getString("itemName1") + jsonObj.getString("itemName2");
+                            if (jsonObj.isNull("itemName2")){
+                                globals.strM04_Name = jsonObj.getString("itemName1");
+                            }else{
+                                globals.strM04_Name = jsonObj.getString("itemName1") + jsonObj.getString("itemName2");
+                            }
                             globals.strM04_Unit = jsonObj.getString("unit");
                             globals.strC01_Lot_No = jsonObj.getString("lotNo");
                             globals.strC01_Vol = jsonObj.getString("vol");
